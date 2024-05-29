@@ -629,11 +629,13 @@ body{
     right: 50px;
 }
 .section4-left-top button{
-    width: 114.8px;
-    height: 34px;
+    width: 124.8px;
+    height: 36px;
     top: 96px;
     left: 72px;
-    padding: 5px 24.6px 5px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 0px;
     border-radius: 30px;
     border: 1px 0px 0px 0px;
@@ -648,14 +650,14 @@ body{
     text-align: left;
 }
 .section4-left-top h2{
-    width: 280.54px;
+    width: 530.54px;
     height: 48px;
     top: 146px;
     left: 72px;
     gap: 0px;
     opacity: 0px;
     font-family: Roboto;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 48px;
     text-align: left;        
@@ -1104,4 +1106,70 @@ swiper-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.swiper-slide{
+    width: 600px;
+    height: 500px;
+}
+html,
+
+
+body {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 600px;
+  height: 450px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 600px;
+  height: 450px;
+}
+.section7-button{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.section7-right{
+    margin-left: 100px;
+}
+.section7{
+    height: 650px;
+    position: relative;
+    top: 200px;
+}
+.section7-top p{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #8D8E92;
+    color: #8D8E92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+.section7-top h3{
+    font-size: 48px;
+    color: #1B2C51;
+}
+.section7-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
