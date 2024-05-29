@@ -13,7 +13,7 @@ body{
 }
 .nav-bar-button{
     width: 1520px;
-    height: 75px;
+    height: 85px;
     top: 53px;
     gap: 0px;
     opacity: 0px;
@@ -24,7 +24,7 @@ body{
     justify-content: space-between;
 }
 .nav-bar-top-left{
-    width: 500px;
+    width: 530px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,13 +49,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 250px;
+    width: 350px
 }
 .nav-bar-1a{
     color: #0463FA;
 }
 .nav-bar-ala{
     color: black;
+    
 }
 .nav-bar-button-right a:hover{
     color: #0463FA;
@@ -63,6 +64,8 @@ body{
     transition:  0.1s linear, transform 0.1s linear; 
 }
 .nav-bar-button-left img{
+    width: 200px;
+    height: 200px;
     position: relative;
     left: 40px;
 }
@@ -82,7 +85,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 130px;
+    width: 150px;
 }
 .nav-bar-button-right{
     width: 700px;
@@ -93,7 +96,7 @@ body{
 .nav-bar-button-right a{
     text-decoration: none;
     font-family: Open Sans;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 22.5px;
     text-align: left;
@@ -108,7 +111,7 @@ body{
 }
 .nav-bar-button-right button{
     width: 228.2px;
-    height: 75px;
+    height: 85px;
     left: 1211.8px;
     padding: 25px 48.64px 26px 49px;
     gap: 0px;
@@ -534,7 +537,7 @@ body{
     color: #1B2C51;        
 }
 .section3-top h3{
-    width: 391.48px;
+    width: 491.48px;
     height: 48px;
     top: 50px;
     left: 104.44px;
