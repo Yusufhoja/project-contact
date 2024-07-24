@@ -43,13 +43,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 220px;
+    width: 180px;
 }
 .divv2{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 250px;
+    width: 290px;
 }
 .nav-bar-1a{
     color: #0463FA;
@@ -63,6 +63,8 @@ body{
     transition:  0.1s linear, transform 0.1s linear; 
 }
 .nav-bar-button-left img{
+    width: 200px;
+    height: 200px;
     position: relative;
     left: 40px;
 }
@@ -82,7 +84,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 130px;
+    width: 160px;
 }
 .nav-bar-button-right{
     width: 700px;
@@ -142,7 +144,7 @@ body{
 }
 .section1 div{
     display: flex;
-    width: 200px;
+    width: 250px;
     align-items: center;
     justify-content: space-around;
     position: relative;
@@ -150,10 +152,13 @@ body{
     left: 100px;
 }
 .section1 div p{
-    font-size: 24px;
+    font-size: 32px;
 }
 .section1-p{
     color: white;
+    width: 600px;
+    display: flex;
+
 }
 .section1-p2{
     color: #0463FA;
@@ -285,4 +290,67 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.section7-button{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.section7-right{
+    margin-left: 100px;
+}
+.section7{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    top: 200px;
+}
+.section7-top p{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #8D8E92;
+    color: #8D8E92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+.section7-top h3{
+    font-size: 48px;
+    color: #1B2C51;
+}
+.section7-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+html,
+
+
+body {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 600px;
+  height: 450px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 600px;
+  height: 450px;
 }

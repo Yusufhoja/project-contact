@@ -4,7 +4,7 @@ body{
     align-items: center;
 }
 .nav-bar-top{
-    width: 1520px;
+    width: 1500px;
     height: 53px;
     padding: 0px 0.02px 0px 0px;
     gap: 0px;
@@ -12,7 +12,7 @@ body{
     background: #EFF5FF;
 }
 .nav-bar-button{
-    width: 1520px;
+    width: 1500px;
     height: 75px;
     top: 53px;
     gap: 0px;
@@ -43,13 +43,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 220px;
+    width: 180px;
 }
 .divv2{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 250px;
+    width: 290px;
 }
 .nav-bar-1a{
     color: #0463FA;
@@ -63,6 +63,8 @@ body{
     transition:  0.1s linear, transform 0.1s linear; 
 }
 .nav-bar-button-left img{
+    width: 200px;
+    height: 200px;
     position: relative;
     left: 40px;
 }
@@ -82,7 +84,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 130px;
+    width: 160px;
 }
 .nav-bar-button-right{
     width: 700px;
@@ -130,7 +132,7 @@ body{
 }
 .section1{
     background-image: url(./image/header-page.jpg);
-    width: 1504px;
+    width: 1500px;
     height: 500px;
 }
 .section1 h1{
@@ -142,7 +144,7 @@ body{
 }
 .section1 div{
     display: flex;
-    width: 200px;
+    width: 300px;
     align-items: center;
     justify-content: space-around;
     position: relative;
@@ -150,7 +152,7 @@ body{
     left: 100px;
 }
 .section1 div p{
-    font-size: 24px;
+    font-size: 32px;
 }
 .section1-p{
     color: white;
@@ -167,7 +169,7 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .card a div{
     width: 25px;
@@ -262,6 +264,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.section3-button{
+    position: relative;
+    top: 50px;
 }
 .card{
     width: 280.98px;
@@ -547,7 +553,7 @@ body{
 footer{
     position: relative;
     top: 300px;
-    width: 1510px;
+    width: 1500px;
     height: 418px;
     gap: 0px;
     opacity: 0px;
