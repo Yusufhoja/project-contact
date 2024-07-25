@@ -4,7 +4,7 @@ body{
     align-items: center;
 }
 .nav-bar-top{
-    width: 1520px;
+    width: 100%;
     height: 53px;
     padding: 0px 0.02px 0px 0px;
     gap: 0px;
@@ -632,8 +632,6 @@ body{
 .section4-left-top button{
     width: 124.8px;
     height: 36px;
-    top: 96px;
-    left: 72px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -653,9 +651,6 @@ body{
 .section4-left-top h2{
     width: 530.54px;
     height: 48px;
-    top: 146px;
-    left: 72px;
-    gap: 0px;
     opacity: 0px;
     font-family: Roboto;
     font-size: 32px;
@@ -666,9 +661,6 @@ body{
 .section4-left-top p{
     width: 599.61px;
     height: 72px;
-    top: 218px;
-    left: 72px;
-    gap: 0px;
     opacity: 0px;
     font-family: Open Sans;
     font-size: 16px;
@@ -1182,4 +1174,283 @@ body {
     height: 360px;
     width: 330px;
     
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+    .body{
+        width: 100%;
+    
+    }
+    .nav-bar-top{
+        width: 1200px;
+    }
+    .nav-bar-top-left{
+        position: absolute;
+        left: 50px;
+        width: 400px;
+    }
+    .nav-bar-top-right{
+        position: absolute;
+        right: 50px ;
+        width: 280px;
+    }
+    .divv1{
+        font-size: 12px;
+    }
+    .divv2{
+        font-size: 12px;
+    }
+    .number{
+        width: 130px;
+        font-size: 13px;
+    }
+    .nav-bar-button{
+        width: 1200px;
+    }
+    .nav-bar-button-left{
+        position: absolute;
+        left: 10px;
+    }
+    .nav-bar-button-right a{
+        font-size: 14px;
+    }
+    .nav-bar-button-right{
+        position: absolute;
+        right: 1px;
+    }
+    .section1{
+        width: 1200px;
+    }
+    .section1-left{
+        width: 600px;
+        height: 520px;
+    }
+    .section1-right{
+        width: 600px;
+        height: 520px;
+    }.ppp{
+        font-size: 38px;
+    }
+    .section2-left{
+        width: 600px;
+    }
+    .img1{
+        position: absolute;
+        left: 120px;
+        top: 780px;
+        height: 450px;
+    }
+    .img2{
+        position: absolute;
+        left: 20px;
+        top: 1050px;
+        height: 270px;
+    }
+    .section2-right h2{
+        font-size: 32px;
+    }
+    .btn1{
+        font-size: 15px;
+        position: absolute;
+        left: 520px;
+        top: 700px;
+    }
+    .btn2{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .p1{
+        font-size: 13px;
+    }
+    .p2{
+        font-size: 13px;
+    }
+    .p3{
+        font-size: 13px;
+    }
+    .p4{
+        font-size: 13px;
+    }
+    .p5{
+        font-size: 13px;
+    }
+    .section3{
+        width: 1200px;
+    }
+    .section3-top h3{
+        font-size: 32px;
+    }
+    .card{
+        width: 220px;
+        height: 270px;
+    }
+    .cards-raw1{
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .cards-raw2{
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .card h4{
+        font-size: 21px;    
+    }
+    .card p{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .card a div{
+        margin-top: 0px;
+    }
+    .card a{
+        position: relative;
+        top: 20px;
+    }
+    .section4-left{
+        width: 600px;
+        height: 462px;
+    }
+    .section4-right{
+        width: 600px;
+    }
+    .section4-right img{
+        width: 600px;
+    }
+    .section4{
+        width: 1200px;
+    }
+    .section4-left-top{
+        position: relative;
+        left: 20px;
+    }
+    .section4-left-top h2{
+        font-size: 24px;
+    }
+    .section4-left-top p{
+        font-size: 14px;
+    }
+    .section4-left-top button {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    .section5-top h2{
+        font-size: 32px;
+    }
+    .section5-top p{
+        font-size: 14px;
+    }
+    .cardd{
+        width: 200px;
+    }
+    .doctor1{
+        width: 250px;
+        height: 315px;
+    }
+    .doctor2{
+        width: 250px;
+        height: 315px;
+    }
+    .doctor3{
+        width: 250px;
+        height: 320px;
+    }
+    .doctor4{
+        width: 250px;
+        height: 320px;
+    }
+    .cardd-button{
+        width: 250px;
+        height: 100px;
+    }
+    .section5-button{
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    .section7-top h3{
+        font-size: 32px;
+    }
+    .section7{
+        width: 1200px;
+    }
+    .section7-left{
+        width: 550px;
+    }
+    .section7-right{
+        width: 550px;
+    }
+    .swiper-slide{
+        width: 550px;
+    }
+    .section7-right iframe{
+        width: 550px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        width: 1200px;
+        height: 350px;
+    }
+    footer p{
+        font-size: 12px;
+    }
 }
