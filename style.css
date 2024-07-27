@@ -1,3 +1,7 @@
+@import 'animate.css/animate.min.css';
+.my-custom-animation {
+    animation-duration: 2s; 
+}
 body{
     display: flex;
     flex-direction: column;
@@ -1186,6 +1190,312 @@ body {
 
 
 
+@media (max-width:450px){
+    .body{
+        width: 100%;
+    
+    }
+    .nav-bar-top{
+        width: 1200px;
+    }
+    .nav-bar-top-left{
+        position: absolute;
+        left: 50px;
+        width: 400px;
+    }
+    .nav-bar-top-right{
+        position: absolute;
+        left: 500px ;
+        width: 280px;
+    }
+    .divv1{
+        font-size: 12px;
+    }
+    .divv2{
+        font-size: 12px;
+    }
+    .number{
+        width: 130px;
+        font-size: 13px;
+    }
+    .nav-bar-button{
+        width: 1200px;
+    }
+    .nav-bar-button-left{
+        position: absolute;
+        left: 10px;
+    }
+    .nav-bar-button-right a{
+        display: none;
+    }
+    .nav-bar-button-right{
+        position: absolute;
+        right: 1px;
+    }
+    .section1{
+        width: 1200px;
+        flex-direction: column;
+    }
+    .section1-left{
+        width: 400px;
+        height: 520px;
+        margin-left: 500px;
+    }
+    .section1-right{
+        display: none;
+    }
+    .section1-left-button{
+        position: relative;
+        top: 35px;
+    }
+    .section1-left-top{
+        margin-top: 75px;
+        margin-right: 50px;
+    }
+    .sanuchip1{
+        font-size: 40px;
+    }
+    .ppp{
+        font-size: 38px;
+        width: 500px;
+        position: relative;
+        left: 50px;
+    }
+    .section1-left-top{
+        width: 500px;
+    }
+    .section2-left{
+        width: 600px;
+    }
+    .img1{
+        position: absolute;
+        left: 120px;
+        top: 780px;
+        height: 450px;
+    }
+    .img2{
+        position: absolute;
+        left: 20px;
+        top: 1050px;
+        height: 270px;
+    }
+    .section2-right h2{
+        font-size: 32px;
+    }
+    .btn1{
+        font-size: 15px;
+        position: absolute;
+        left: 520px;
+        top: 700px;
+        width: 90px;
+        height: 25px;
+    }
+    .btn2{
+        font-size: 15px;
+        margin-top: 30px;
+        width: 130px;
+        height: 40px;
+        padding: 0px;
+    }
+    .p1{
+        font-size: 13px;
+    }
+    .p2{
+        font-size: 13px;
+    }
+    .p3{
+        font-size: 13px;
+    }
+    .p4{
+        font-size: 13px;
+    }
+    .p5{
+        font-size: 13px;
+    }
+    .section3{
+        width: 1200px;
+        margin-top: 110px;
+    }
+    .section3-top h3{
+        font-size: 32px;
+        width: 400px;
+        height: 34px;
+    }
+    .section3-top button{
+        font-size: 15px;
+        width: 100px;
+        padding: 0px;
+        height: 32px;
+    }
+    .card{
+        width: 220px;
+        height: 270px;
+    }
+    .cards-raw1{
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .cards-raw2{
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .card h4{
+        font-size: 21px;    
+    }
+    .card p{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .card a div{
+        margin-top: 0px;
+    }
+    .card a{
+        position: relative;
+        top: 20px;
+    }
+    .section4-left{
+        width: 600px;
+        height: 462px;
+    }
+    .section4-right{
+        width: 600px;
+    }
+    .section4-right img{
+        width: 600px;
+    }
+    .section4{
+        width: 1200px;
+    }
+    .section4-left-top{
+        position: relative;
+        left: 20px;
+    }
+    .section4-left-top h2{
+        font-size: 24px;
+    }
+    .section4-left-top p{
+        font-size: 14px;
+    }
+    .section4-left-top button {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    .section5-top h2{
+        font-size: 32px;
+    }
+    .section5-top p{
+        font-size: 14px;
+    }
+    .cardd{
+        width: 200px;
+    }
+    .doctor1{
+        width: 250px;
+        height: 315px;
+    }
+    .doctor2{
+        width: 250px;
+        height: 315px;
+    }
+    .doctor3{
+        width: 250px;
+        height: 320px;
+    }
+    .doctor4{
+        width: 250px;
+        height: 320px;
+    }
+    .cardd-button{
+        width: 250px;
+        height: 100px;
+    }
+    .section5-button{
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    .section7-top h3{
+        font-size: 32px;
+    }
+    .section7{
+        width: 1200px;
+    }
+    .section7-left{
+        width: 550px;
+    }
+    .section7-right{
+        width: 550px;
+    }
+    .swiper-slide{
+        width: 550px;
+    }
+    .section7-right iframe{
+        width: 550px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        width: 1200px;
+        height: 350px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
 @media (max-width:1200px){
     .body{
         width: 100%;
@@ -1238,8 +1548,26 @@ body {
     .section1-right{
         width: 600px;
         height: 520px;
-    }.ppp{
+    }
+    .section1-left-button{
+        position: relative;
+        top: 35px;
+    }
+    .section1-left-top{
+        margin-top: 75px;
+        margin-right: 50px;
+    }
+    .sanuchip1{
+        font-size: 40px;
+    }
+    .ppp{
         font-size: 38px;
+        width: 500px;
+        position: relative;
+        left: 50px;
+    }
+    .section1-left-top{
+        width: 500px;
     }
     .section2-left{
         width: 600px;
@@ -1264,10 +1592,15 @@ body {
         position: absolute;
         left: 520px;
         top: 700px;
+        width: 90px;
+        height: 25px;
     }
     .btn2{
         font-size: 15px;
         margin-top: 30px;
+        width: 130px;
+        height: 40px;
+        padding: 0px;
     }
     .p1{
         font-size: 13px;
@@ -1286,9 +1619,18 @@ body {
     }
     .section3{
         width: 1200px;
+        margin-top: 110px;
     }
     .section3-top h3{
         font-size: 32px;
+        width: 400px;
+        height: 34px;
+    }
+    .section3-top button{
+        font-size: 15px;
+        width: 100px;
+        padding: 0px;
+        height: 32px;
     }
     .card{
         width: 220px;
